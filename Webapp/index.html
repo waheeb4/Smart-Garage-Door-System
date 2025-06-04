@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Garage Door</title>
+  <script src="https://cdn.jsdelivr.net/npm/paho-mqtt@1.1.0/paho-mqtt.min.js"></script>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="platform">
+
+    <div class="card">
+      <h3>DOOR</h3>
+      <div class="toggle-wrapper">
+        <input type="checkbox" id="doorToggle" />
+        <label for="doorToggle"></label>
+        <span class="state-label state-closed">CLOSED</span>
+        <span class="state-label state-open">OPEN</span>
+      </div>
+    </div>
+
+    
+    <div class="card">
+      <h3>Haramy</h3>
+      <div class="static-label" id="haramyLabel">No Haramy</div>
+    </div>
+  </div>
+    <script src="index.js"></script>
+</body>
+</html>
